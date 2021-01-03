@@ -21,6 +21,13 @@ body {
   cursor: pointer;
 }
 
+button:disabled,
+button[disabled]{
+  border: 1px solid #666060;
+  background-color: #cccccc;
+  color: #666666;
+}
+
 .cart {
   margin: 25px 100px;
   float: right;
